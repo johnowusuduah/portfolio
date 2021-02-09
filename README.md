@@ -1,34 +1,11 @@
-## Welcome to GitHub Pages
+![](/images/profile_pic.png)
 
-You can use the [editor on GitHub](https://github.com/johnowusuduah/ds_portfolio/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## John Owusu Duah
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### About
+I am an engineer who values making a shift from the prevailing anecdotal, political and social way of making decisions within organizations to a more precise, evidence-based data-driven process which can be replicated and scaled in a cost effective manner.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Project 1: Clustering of Neighborhoods in Toronto](https://github.com/johnowusuduah/ds_portfolio/blob/main/clustering_neighborhoods_toronto.html) and ![Image](src)
-
-[Project 2: Prediction Modeling of House Prices in King County, Seattle, USA](https://github.com/johnowusuduah/ds_portfolio/blob/main/clustering_neighborhoods_toronto.html) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Projects
 
 ### Jekyll Themes
 
