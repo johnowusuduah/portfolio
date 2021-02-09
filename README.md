@@ -23,7 +23,9 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+[Project 1: Clustering of Neighborhoods in Toronto](https://github.com/johnowusuduah/ds_portfolio/blob/main/clustering_neighborhoods_toronto.html) and ![Image](src)
+
+[Project 2: Prediction Modeling of House Prices in King County, Seattle, USA](https://github.com/johnowusuduah/ds_portfolio/blob/main/clustering_neighborhoods_toronto.html) and ![Image](src)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
