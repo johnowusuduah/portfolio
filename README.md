@@ -12,13 +12,15 @@ I am an engineer who values making a shift from the prevailing anecdotal, politi
 I am currently working as a transportation engineer at the Department of Urban Roads, an agency under the Ghana's Ministry of Roads and Highways. Among other responsibilities, I manage the road maintenance database system for the Western Region of Ghana to generate insights for project selection, validation and appraisal using SQL, Python(scikit-learn, pandas, numpy, matplotlib, SciPy and Folium) and AutoCAD Civil 3D. 
 
 ## Projects
-### Classification Predictive Modeling (A test case to predict the price of Bitcoin in 2026) - March 2021
+### 1.Classification Predictive Modeling (A test case to predict the price of Bitcoin in 2026) - March 2021
 ![](/images/inprogress.png)
 #### Executive Summary
-With Tesla, Twitter and other technology companies buying large amounts of Bitcoin prompting an increase in demand for the Cryptocurrency and a sharp surge in its price (1 Bitcoin = $45,191.00 as at February 10, 2021), the question on the minds of the those looking on in askance is, is Bitcoin real or is it a bubble? To help answer this question, I will seek to predict the price of Bitcoin five years from 2026 so that we can at least determine if indeed Bitcoin is a bubble or if it is a an access for wealth creation.
+With Tesla, Twitter and other technology companies buying large amounts of Bitcoin prompting an increase in demand for the Cryptocurrency and a sharp surge in its price (1 Bitcoin = $45,191.00 as at February 10, 2021), the question on the minds of the those looking on in askance is, is Bitcoin real or is it a bubble? To help answer this question, I will seek to predict the price of Bitcoin five years from 2026 so that we can at least determine if indeed Bitcoin is a bubble or if it is an asset class for wealth creation.
+
 ![](/images/bitcoin.jpg)
 
-### Clustering of Geospatial Data Based on Number of Businesses in Close Proximity and Vizualization on OpenStreetMap (A Test Case to Cluster Neighborhoods in Toronto Based On Venue Categories) - January 2021
+
+### 2.Clustering of Geospatial Data Based on Number of Businesses in Close Proximity and Vizualization on OpenStreetMap (A Test Case to Cluster Neighborhoods in Toronto Based On Venue Categories) - January 2021
 #### Executive Summary
 This project was carried out as real-world application of Python's clustering algorithm to segregate neighorhoods in Toronto, Canada into clusters with similar high numbers of venue categories. By using insight from this project, marketing campaigns can be targeted and made efficient by companies who wish to market products and services to targeted businesses in Toronto.
 
@@ -38,7 +40,7 @@ The clusters were superimposed on the OpenStreetMap of Toronto using Python's Fo
 ![](/images/clustering.png)
 
 
-### Comprehensive Regression Modeling Using Python (A Test Case to Predict House Prices in King County, Seattle, U.S.A) - October 2020
+### 3.Comprehensive Regression Modeling Using Python (A Test Case to Predict House Prices in King County, Seattle, U.S.A) - October 2020
 ![](/images/regression3.0.png)
 #### Executive Summary
 How does one use regression modeling with Python to build predictive models when given data with numerous possible predictor variables? The project sought to answer this question while serving as a comprehensive guide for students and practitioners to gain a deeper understanding of the concepts and code behind regression modeling with Python. The dataset is available online at www.kaggle.com and has details of houses sold in King County between May 2014 and May 2015.
