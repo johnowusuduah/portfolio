@@ -10,7 +10,7 @@ I am currently working as a transportation engineer at the Department of Urban R
 ## Projects
 
 ### Cu
-
+![](/images/clustering.png)
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/johnowusuduah/ds_portfolio/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Comprehensive Regression Modeling Using Python (A Test Case to Predict House Prices in King County, Seattle, U.S.A)
