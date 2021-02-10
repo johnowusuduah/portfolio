@@ -23,7 +23,7 @@ Initially, I set out to carry out this project in my home country of Ghana, whic
 
 A large part of data scientist's job is gathering, selecting and transforming data to answer and analytical question. Hence Toronto, as a test case, has just enough data available on the web to enable me apply Python's Beautiful Soup and pgeocode libraries, which I will need in the future. Additionally, Foursquare has curated data on businesses in Toronto, so I was able to practice making calls to Foursquare's API (Application Programming Interface) and parsing the resulting json file to extract needed data. Toronto, afforded me the opportunity to get real feedback on skills and concept I learnt and pushed me to learn more and better ways to collect and clean data.
 
-After merging georeferenced data of neighborhoods in Toronto with data on venue categories obtained from making calls to Foursquare's API, the data was transormed and fed into the k-means clustering algorithm to segregate the neighborhoods into the following five (5) clusters:
+After merging georeferenced data of neighborhoods in Toronto with data on venue categories obtained from making calls to Foursquare's API, the data was transformed and fed into the k-means clustering algorithm to segregate the neighborhoods into the following five (5) clusters:
 - Cluster 0: Neighborhoods with high number of dining venues. Color on map = Red
 - Cluster 1: Neighborhoods with high number of photography studios. Color on map = Purple
 - Cluster 2: Neighborhoods with high number of home service venues. Color on map = Cyan
