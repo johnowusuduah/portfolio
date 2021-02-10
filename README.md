@@ -16,6 +16,19 @@ I am currently working as a transportation engineer at the Department of Urban R
 ### Clustering of Geospatial Data Based on Number of Businesses in Close Proximity and Vizualization on OpenStreetMap (A Test Case to Cluster Neighborhoods in Toronto Based On Venue Categories) - January 2021
 ![](/images/clustering.png)
 #### Executive Summary
+This project was carried out as real-world application of Python's clustering algorithm to segregate neighorhoods in Toronto, Canada into clusters with similar high numbers of venue categories. By using insight from this project, marketing campaigns can be streamlined and made efficient by companies who wish to market products and services to targeted businesses in Toronto.
+
+Why Toronto, Canada?
+Initially, I set out to carry out this project in my home country of Ghana, which, on one end of the spectrum, does not have enough data available on the internet to draw meaninful conclusions from. On the other end of the spectrum, developed nations like the U.S.A, England, France, and Germany had superfluous data available in different formats on the internet. I needed to find a happy medium.
+
+A large part of data scientist's job is gathering, selecting and transforming data to answer and analytical question. Hence Toronto, as a test case, has just enough data available on the web to enable me apply Python's Beautiful Soup and pgeocode libraries, which I will need in the future. Additionally, Foursquare has curated data on businesses in Toronto, so I was able to practice making calls to Foursquare's API (Application Programming Interface) and parsing the resulting json file to extract needed data. Toronto, afforded me the opportunity to get real feedback on skills and concept I learnt and pushed me to learn more and better ways to collect and clean data.
+
+After merging georeferenced data of neighborhoods in Toronto with data on venue categories obtained from making calls to Foursquare's API, the data was transormed and fed into the k-means clustering algorithm to segregate the neighborhoods into the following five (5) clusters:
+- Cluster 0: Neighborhoods with high number of dining venues. Color on map = Red
+- Cluster 1: Neighborhoods with high number of photography studios. Color on map = Purple
+- Cluster 2: Neighborhoods with high number of home service venues. Color on map = Cyan
+- Cluster 3: Neighborhoods with high number of residential buildings close to parks. Color on map = Light Green
+- Cluster 4: Neighborhoods with high number of outdoor playground and recreational venues. Color on map = Light Brown
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/johnowusuduah/ds_portfolio/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
