@@ -20,6 +20,7 @@ With Tesla, Twitter and other technology companies buying large amounts of Bitco
 ![](/images/bitcoin.jpg)
 
 
+
 ### 2.Clustering of Geospatial Data Based on Number of Businesses in Close Proximity and Vizualization on OpenStreetMap (A Test Case to Cluster Neighborhoods in Toronto Based On Venue Categories) - January 2021
 #### Executive Summary
 This project was carried out as real-world application of Python's clustering algorithm to segregate neighorhoods in Toronto, Canada into clusters with similar high numbers of venue categories. By using insight from this project, marketing campaigns can be targeted and made efficient by companies who wish to market products and services to targeted businesses in Toronto.
@@ -40,6 +41,7 @@ The clusters were superimposed on the OpenStreetMap of Toronto using Python's Fo
 ![](/images/clustering.png)
 
 
+
 ### 3.Comprehensive Regression Modeling Using Python (A Test Case to Predict House Prices in King County, Seattle, U.S.A) - October 2020
 ![](/images/regression3.0.png)
 #### Executive Summary
@@ -55,4 +57,3 @@ After the data was imported into a dataframe, it was cleaned and explored to gai
  
 In the end, our analysis revealed that the the choice of the most optimum model would be dependent on its use. If the overall objective of carrying out the regression modeling is to make predictions while determining coefficients and p values then the ridge regression in the Section 6 of the notebook would be the model to use. However, if the sole purpose of carrying out the analysis is to make predictions, then the second order multivariate polynomial regression model would be ideal.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/johnowusuduah/ds_portfolio/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
