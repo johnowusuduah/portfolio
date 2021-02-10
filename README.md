@@ -1,4 +1,7 @@
-![](/images/profile_pic.png)
+<p align="center">
+  <img width="180" height="180" src="images/profile_pic.png">
+</p>
+
 
 ## John Owusu Duah
 
