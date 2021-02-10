@@ -15,7 +15,7 @@ I am currently working as a transportation engineer at the Department of Urban R
 
 ### Clustering of Geospatial Data Based on Number of Businesses in Close Proximity and Vizualization on OpenStreetMap (A Test Case to Cluster Neighborhoods in Toronto Based On Venue Categories) - January 2021
 #### Executive Summary
-This project was carried out as real-world application of Python's clustering algorithm to segregate neighorhoods in Toronto, Canada into clusters with similar high numbers of venue categories. By using insight from this project, marketing campaigns can be streamlined and made efficient by companies who wish to market products and services to targeted businesses in Toronto.
+This project was carried out as real-world application of Python's clustering algorithm to segregate neighorhoods in Toronto, Canada into clusters with similar high numbers of venue categories. By using insight from this project, marketing campaigns can be targeted and made efficient by companies who wish to market products and services to targeted businesses in Toronto.
 
 Why Toronto, Canada?
 Initially, I set out to carry out this project in my home country of Ghana, which, on one end of the spectrum, does not have enough data available on the internet to draw meaninful conclusions from. On the other end of the spectrum, developed nations like the U.S.A, England, France, and Germany had superfluous data available in different formats on the internet. I needed to find a happy medium.
