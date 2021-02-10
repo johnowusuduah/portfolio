@@ -5,7 +5,7 @@
 <h1 style="text-align:center">John Owusu Duah</h1>
 
 
-# Data Science Portfolio
+
 ## About
 I am an engineer who values making a shift from the prevailing anecdotal, political and social way of making decisions within organizations to a more precise, evidence-based data-driven process which can be replicated and scaled in a cost effective manner.
 
