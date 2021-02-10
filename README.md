@@ -9,7 +9,7 @@ I am currently working as a transportation engineer at the Department of Urban R
 
 ## Projects
 
-### Jekyll Themes
+### Cu
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/johnowusuduah/ds_portfolio/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
@@ -19,10 +19,10 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 How does one use regression modeling with Python to build predictive models when given data with numerous possible predictor variables? The project sought to answer this question while serving as a comprehensive guide for students and practitioners to gain a deeper understanding of the concepts and code behind regression modeling with Python. The dataset is available online at www.kaggle.com and has details of houses sold in King County between May 2014 and May 2015.
 
 After the data was imported into a dataframe, it was cleaned and explored to gain a better understanding of the story behind it. At this stage, the correlation between all possible independent variables and the dependent variable of house price was evaluated. Checks were made to determine which of the following models would produce the most accurate model:
- - [1. Linear Regression Model]
- - [2. Polynomial Regression Model with a single independent variable]
- - [3. Polynomial Regression Model with multiple independent variables]
- - [4. Ridge Regression Model with Grid Search]
+ - - Linear Regression Model
+ - - Polynomial Regression Model with a single independent variable
+ - - Polynomial Regression Model with multiple independent variables
+ - - Ridge Regression Model with Grid Search
  
  In-sample and out-of-sample evaluation was carried to break down the concepts and make them easy to understand for the reader. Issues pertaining to **multicollinearity**, which is often ignored by most students and practitioners, was discussed exhaustively and dealt with.
  
