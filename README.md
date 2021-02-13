@@ -14,7 +14,7 @@ I am currently working as a transportation engineer at the Department of Urban R
 ## Passion Projects
 ### 1. Classification Predictive Modeling (A test case to predict the price of Bitcoin in 2026) - March 2021
 #### Executive Summary (In Progress)
-With Tesla, Twitter, and other technology companies buying large amounts of Bitcoin prompting an increase in demand for the Cryptocurrency and a sharp surge in its price (1 Bitcoin = $45,191.00 as of February 10, 2021), the question on the minds of the those looking on in askance is, is Bitcoin real or is it a bubble? To help answer this question, I will seek to predict the price of Bitcoin five years from 2026 so that we can at least determine if indeed Bitcoin is a bubble or if it is an asset class for wealth creation.
+With Tesla, Twitter, and other technology companies buying large amounts of Bitcoin prompting an increase in demand for the cryptocurrency and a sharp surge in its price (1 Bitcoin = $45,191.00 as of February 10, 2021), the question on the minds of the those looking on in askance is, is Bitcoin real or is it a bubble? To help answer this question, I will seek to predict the price of Bitcoin in five years so that we can at least determine if indeed Bitcoin is a bubble or an genuine asset class for wealth creation.
 ![](/images/bitcoin.jpg)
 
 
