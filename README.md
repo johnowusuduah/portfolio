@@ -11,7 +11,7 @@ I am an engineer who values shifting from the prevailing anecdotal, political an
 
 I am currently working as a transportation engineer at the Department of Urban Roads, an agency under Ghana's Ministry of Roads and Highways. Among other responsibilities, I manage the road maintenance database system for the Western Region of Ghana to generate insights for project selection, validation, and appraisal using SQL, Python(scikit-learn, pandas, numpy, matplotlib, SciPy and Folium) and ArcGIS. 
 
-## Projects
+## Passion Projects
 ### 1. Classification Predictive Modeling (A test case to predict the price of Bitcoin in 2026) - March 2021
 #### Executive Summary (In Progress)
 With Tesla, Twitter, and other technology companies buying large amounts of Bitcoin prompting an increase in demand for the Cryptocurrency and a sharp surge in its price (1 Bitcoin = $45,191.00 as of February 10, 2021), the question on the minds of the those looking on in askance is, is Bitcoin real or is it a bubble? To help answer this question, I will seek to predict the price of Bitcoin five years from 2026 so that we can at least determine if indeed Bitcoin is a bubble or if it is an asset class for wealth creation.
@@ -43,7 +43,6 @@ The clusters were superimposed on the OpenStreetMap of Toronto using Python's Fo
 
 
 ### [3. Comprehensive Regression Modeling Using Python (A Test Case to Predict House Prices in King County, Seattle, U.S.A) - October 2020](/predictive_regression_kingcounty_seattle.html)
-![](/images/regression3.0.png)
 #### Executive Summary
 How does one use regression modeling with Python to build predictive models when given data with numerous possible predictor variables? The project sought to answer this question while serving as a comprehensive guide for students and practitioners to understand the concepts and code behind regression modeling with Python. The dataset is available online at www.kaggle.com and has details of houses sold in King County between May 2014 and May 2015.
 
@@ -56,4 +55,4 @@ After the data was imported into a dataframe, it was cleaned and explored to bet
  In-sample and out-of-sample evaluation were carried to break down the concepts and make them easy to understand for the reader. Issues of **multicollinearity**, which most students and practitioners often ignore, was discussed exhaustively and dealt with.
  
 In the end, our analysis revealed that the choice of the most optimum model would be dependent on its use. If the overall objective of carrying out the regression modeling is to make predictions while determining coefficients and p values, then the ridge regression in the Section 6 of the notebook would be the model to use. However, if the sole purpose of carrying out the analysis is to make predictions, then the second-order multivariate polynomial regression model would be ideal.
-
+![](/images/regression3.0.png)
