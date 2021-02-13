@@ -9,7 +9,7 @@
 ## About
 I am an engineer who values shifting from the prevailing anecdotal, political and social way of making decisions within organizations to a more precise, evidence-based, data-driven process that can be replicated and scaled in a cost effective manner.
 
-I am currently working as a transportation engineer at the Department of Urban Roads, an agency under Ghana's Ministry of Roads and Highways. Among other responsibilities, I manage the road maintenance database system for the Western Region of Ghana to generate insights for project selection, validation, and appraisal using SQL, Python(scikit-learn, pandas, numpy, matplotlib, SciPy and Folium) and ArcGIS. 
+I am currently working as a transportation engineer at the Department of Urban Roads, an agency under Ghana's Ministry of Roads and Highways. Among other responsibilities, I lead the preparation of reports on optimum project selection, validation, appraisal, and supply chain risk analysis after extracting and analyzing data from Intelligent Road Network Management Database (IRNMD) system  using SQL, Python and ArcGIS. 
 
 ## Passion Projects
 ### 1. Classification Predictive Modeling (A test case to predict the price of Bitcoin in 2026) - March 2021
