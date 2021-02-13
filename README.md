@@ -21,8 +21,6 @@ With Tesla, Twitter, and other technology companies buying large amounts of Bitc
 
 ### [2. Clustering of Geospatial Data Based on Number of Businesses Near Neighborhoods in Toronto and Vizualization on OpenStreetMap (A Test Case to Cluster Neighborhoods in Toronto Based On Venue Categories) - January 2021](/clustering_neighborhoods_toronto.html)
 #### Executive Summary
-Cluster Neighborhoods in Toronto Based On Venue Categories) - January 2021](/clustering_neighborhoods_toronto.html)
-#### Executive Summary
 This project was carried out as real-world application of Python's clustering algorithm to segregate neighorhoods in Toronto, Canada into clusters with similar high numbers of venue categories. Using insight from this project, marketing campaigns can be targeted and made efficient by companies who wish to market products and services to targeted businesses in Toronto.
 
 Why Toronto, Canada?
