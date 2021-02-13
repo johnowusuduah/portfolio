@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="200" height="280" src="images/PortfolioImage.jpg">
+  <img width="200" height="280" src="images/portfolio.png">
 </p>
 
 <h1 style="text-align:center">John Owusu Duah</h1>
