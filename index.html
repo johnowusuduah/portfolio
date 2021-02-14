@@ -1,0 +1,495 @@
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+    <title>John Owusu Duah's Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body class="is-preload">
+
+    <!-- Header -->
+    <section id="header">
+        <header>
+            <span class="image avatar"><img src="images/portfolio.png" alt="Portfolio Image" /></span>
+            <h1 id="logo"><a href="#">John Owusu Duah</a></h1>
+        </header>
+        <nav id="nav">
+            <ul>
+                <li><a href="#one" class="active">About</a></li>
+                <li><a href="#two">Projects</a></li>
+                <li><a href="#three">Contact</a></li>
+            </ul>
+        </nav>
+        <footer>
+            <ul class="icons">
+                <li><a href="https://www.linkedin.com/in/johnowusuduah/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                <li><a href="https://github.com/johnowusuduah/portfolio" class="icon brands fa-github"><span class="label">Github</span></a></li>
+            </ul>
+        </footer>
+    </section>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Main -->
+        <div id="main">
+
+            <!-- One -->
+            <section id="one">
+                <div class="image main" data-position="center">
+                    <img src="images/banner2.0.jpeg" alt="" width="" height="100" />
+                </div>
+                <div class="container">
+                    <header class="major">
+                        <h3>About Me</h3>
+                        <p>I am an engineer who values shifting from the prevailing anecdotal, political and social way of making decisions within organizations to a more precise, evidence-based, data-driven process that can be replicated and scaled in a
+                            cost effective manner.</p>
+                        <p>I am currently working as a transportation engineer at the Department of Urban Roads, an agency under Ghana's Ministry of Roads and Highways. Among other responsibilities, I lead the preparation of reports on optimum project selection,
+                            validation, appraisal, and supply chain risk analysis after extracting and analyzing data from Intelligent Road Network Management Database (IRNMD) system using SQL, Python and ArcGIS.</p>
+                </div>
+            </section>
+
+            <!-- Two -->
+            <section id="two">
+                <div class="container">
+                    <h3>Passion Projects</h3>
+                    <h4>
+                        <a href=""></a>1. Predictive Modeling Using Classification (A test case to predict the price of Bitcoin in 2026) - (In Progress)</h4>
+                    <h4>Executive Summary</h4>
+                    <p>With Tesla, Twitter, and other technology companies buying large amounts of Bitcoin prompting an increase in demand for the cryptocurrency and a sharp surge in its price (1 Bitcoin = $45,191.00 as of February 10, 2021), the question
+                        on the minds of the those looking on in askance is, is Bitcoin real or is it a bubble? To help answer this question, I will seek to predict the price of Bitcoin in five years so that we can at least determine if indeed Bitcoin
+                        is a bubble or an genuine asset class for wealth creation.</p>
+                    <img src="/images/bitcoin.jpg" alt="Picture of One Bitcoin" width="600" height="400">
+
+                    <br></br>
+
+                    <h4><a href="/clustering_neighborhoods_toronto.html">2. Clustering of Geospatial Data Based on Number of Businesses Near Neighborhoods in Toronto and Vizualization on OpenStreetMap (A Test Case to Cluster Neighborhoods in Toronto Based On Venue Categories)</a></h4>
+                    <h4>Executive Summary</h4>
+                    <p>This project was carried out as real-world application of Python's clustering algorithm to segregate neighorhoods in Toronto, Canada into clusters with similar high numbers of venue categories. Using insight from this project, marketing
+                        campaigns can be targeted and made efficient by companies who wish to market products and services to targeted businesses in Toronto.</p>
+                    <p>Why Toronto, Canada? Initially, I set out to carry out this project in my home country of Ghana, which does not have enough data available on the internet to draw meaninful conclusions from on one end of the spectrum. On the other
+                        end of the spectrum, developed nations like the U.S.A, England, France, and Germany had superfluous data available in different formats on the internet. I needed to find a happy medium.</p>
+                    <p>A large part of a data scientist's job is gathering, selecting, and transforming data to answer analytical questions. Hence, as a test case, Toronto has just enough data available on the web to enable me to apply Python's Beautiful
+                        Soup and pgeocode libraries, which I will need in the future. Additionally, Foursquare has curated data on businesses in Toronto, so I was able to practice making calls to Foursquare's API and parsing the resulting json file to
+                        extract needed data. Toronto allowed me to get real feedback on skills and concepts I learned and pushed me to learn more and better ways to collect and clean data.</p>
+                    <p>After merging georeferenced data of neighborhoods in Toronto with data on venue categories obtained from making calls to Foursquare's API, the data was transformed and fed into the k-means clustering algorithm to segregate the neighborhoods
+                        into the following five (5) clusters:</p>
+                    <li>Cluster 0: Neighborhoods with high number of dining venues. Color on map = Red</li>
+                    <li>Cluster 1: Neighborhoods with high number of photography studios. Color on map = Purple</li>
+                    <li>Cluster 2: Neighborhoods with high number of home service venues. Color on map = Cyan</li>
+                    <li>Cluster 3: Neighborhoods with high number of residential buildings close to parks. Color on map = Light Green</li>
+                    <li>Cluster 4: Neighborhoods with high number of outdoor playground and recreational venues. Color on map = Light Brown</li>
+                    <p></p>
+                    <p>The clusters were superimposed on the OpenStreetMap of Toronto using Python's Folium Library for easy referencing.</p>
+                    <img src="/images/clustering.png" alt="OpenStreetMap of Toronto" width="600" height="400">
+
+                    <br></br>
+
+                    <h4><a href="/predictive_regression_kingcounty_seattle.html">3. Regression Modeling Using Python (A Test Case to Predict House Prices in King County, Seattle, U.S.A)</a></h4>
+                    <h4>Executive Summary</h4>
+                    <p>How can regression modeling with Python to build predictive models when given data with numerous possible predictor variables? The project sought to answer this question while serving as a comprehensive guide for students and practitioners
+                        to understand the concepts and code behind regression modeling with Python. The dataset is available online at www.kaggle.com and has details of houses sold in King County between May 2014 and May 2015.</p>
+                    <p>After the data was imported into a dataframe, it was cleaned and explored to better understand the story behind it. At this stage, the correlation between all possible independent variables and the dependent variable of house price
+                        was evaluated. Checks were made to determine which of the following models would produce the most accurate model:</p>
+                    <li>Linear Regression Model</li>
+                    <li>Polynomial Regression Model with a single independent variable</li>
+                    <li>Polynomial Regression Model with multiple independent variables</li>
+                    <li>Ridge Regression Model with Grid Search</li>
+                    <p></p>
+                    <p>In-sample and out-of-sample evaluation were carried to break down the concepts and make them easy to understand for the reader. Issues of **multicollinearity**, which most students and practitioners often ignore, was discussed exhaustively
+                        and dealt with.</p>
+                    <p>In the end, our analysis revealed that the choice of the most optimum model would be dependent on its use. If the overall objective of carrying out the regression modeling is to make predictions while determining coefficients and p
+                        values, then the ridge regression in the Section 6 of the notebook would be the model to use. However, if the sole purpose of carrying out the analysis is to make predictions, then the second-order multivariate polynomial regression
+                        model would be ideal.</p>
+                    <img src="/images/regression.png" alt="Regression Plots" width="600" height="400">
+
+                </div>
+            </section>
+
+            <!-- Three -->
+            <section id="three">
+                <div class="container">
+                    <h3>Contact Me</h3>
+                    <p>Hello, do not hesitate to get in touch if you have any critiques, queries or if you would like to collaborate on a project of common interest</p>
+                    <form method="post" action="#">
+                        <div class="row gtr-uniform">
+                            <div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+                            <div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+                            <div class="col-12"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
+                            <div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
+                            <div class="col-12">
+                                <ul class="actions">
+                                    <li><input type="submit" class="primary" value="Send Message" /></li>
+                                    <li><input type="reset" value="Reset Form" /></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+            <!-- Five -->
+            <!--
+							<section id="five">
+								<div class="container">
+									<h3>Elements</h3>
+
+									<section>
+										<h4>Text</h4>
+										<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+										This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+										This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+										<hr />
+										<header>
+											<h4>Heading with a Subtitle</h4>
+											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+										</header>
+										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+										<header>
+											<h5>Heading with a Subtitle</h5>
+											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+										</header>
+										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+										<hr />
+										<h2>Heading Level 2</h2>
+										<h3>Heading Level 3</h3>
+										<h4>Heading Level 4</h4>
+										<h5>Heading Level 5</h5>
+										<h6>Heading Level 6</h6>
+										<hr />
+										<h5>Blockquote</h5>
+										<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+										<h5>Preformatted</h5>
+										<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+									</section>
+
+									<section>
+										<h4>Lists</h4>
+										<div class="row">
+											<div class="col-6 col-12-xsmall">
+												<h5>Unordered</h5>
+												<ul>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Sagittis adipiscing lorem eleifend.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ul>
+												<h5>Alternate</h5>
+												<ul class="alt">
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Sagittis adipiscing lorem eleifend.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ul>
+											</div>
+											<div class="col-6 col-12-xsmall">
+												<h5>Ordered</h5>
+												<ol>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Etiam vel felis at lorem sed viverra.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Etiam vel felis at lorem sed viverra.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ol>
+												<h5>Icons</h5>
+												<ul class="icons">
+													<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+													<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+													<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+													<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+													<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+													<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
+												</ul>
+											</div>
+										</div>
+										<h5>Actions</h5>
+										<ul class="actions">
+											<li><a href="#" class="button primary">Default</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt">Default</a></li>
+										</ul>
+										<ul class="actions small">
+											<li><a href="#" class="button primary small">Small</a></li>
+											<li><a href="#" class="button small">Small</a></li>
+											<li><a href="#" class="button alt small">Small</a></li>
+										</ul>
+										<div class="row">
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary">Default</a></li>
+													<li><a href="#" class="button">Default</a></li>
+													<li><a href="#" class="button alt">Default</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6 col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary small">Small</a></li>
+													<li><a href="#" class="button small">Small</a></li>
+													<li><a href="#" class="button alt small">Small</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary fit">Default</a></li>
+													<li><a href="#" class="button fit">Default</a></li>
+													<li><a href="#" class="button alt fit">Default</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary small fit">Small</a></li>
+													<li><a href="#" class="button small fit">Small</a></li>
+													<li><a href="#" class="button alt small fit">Small</a></li>
+												</ul>
+											</div>
+										</div>
+									</section>
+
+									<section>
+										<h4>Table</h4>
+										<h5>Default</h5>
+										<div class="table-wrapper">
+											<table>
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item One</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Two</td>
+														<td>Vis ac commodo adipiscing arcu aliquet.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Three</td>
+														<td> Morbi faucibus arcu accumsan lorem.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Four</td>
+														<td>Vitae integer tempus condimentum.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Five</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+
+										<h5>Alternate</h5>
+										<div class="table-wrapper">
+											<table class="alt">
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item One</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Two</td>
+														<td>Vis ac commodo adipiscing arcu aliquet.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Three</td>
+														<td> Morbi faucibus arcu accumsan lorem.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Four</td>
+														<td>Vitae integer tempus condimentum.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Five</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+									</section>
+
+									<section>
+										<h4>Buttons</h4>
+										<ul class="actions">
+											<li><a href="#" class="button primary">Primary</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt">Alternate</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button primary large">Large</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt small">Small</a></li>
+										</ul>
+										<ul class="actions fit">
+											<li><a href="#" class="button primary fit">Fit</a></li>
+											<li><a href="#" class="button fit">Fit</a></li>
+											<li><a href="#" class="button alt fit">Fit</a></li>
+										</ul>
+										<ul class="actions fit small">
+											<li><a href="#" class="button primary fit small">Fit + Small</a></li>
+											<li><a href="#" class="button fit small">Fit + Small</a></li>
+											<li><a href="#" class="button alt fit small">Fit + Small</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+											<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+											<li><a href="#" class="button alt icon solid fa-check">Icon</a></li>
+										</ul>
+										<ul class="actions">
+											<li><span class="button primary disabled">Primary</span></li>
+											<li><span class="button disabled">Default</span></li>
+											<li><span class="button alt disabled">Alternate</span></li>
+										</ul>
+									</section>
+
+									<section>
+										<h4>Form</h4>
+										<form method="post" action="#">
+											<div class="row gtr-uniform">
+												<div class="col-6 col-12-xsmall">
+													<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+												</div>
+												<div class="col-6 col-12-xsmall">
+													<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+												</div>
+												<div class="col-12">
+													<select name="demo-category" id="demo-category">
+														<option value="">- Category -</option>
+														<option value="1">Manufacturing</option>
+														<option value="1">Shipping</option>
+														<option value="1">Administration</option>
+														<option value="1">Human Resources</option>
+													</select>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+													<label for="demo-priority-low">Low Priority</label>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-normal" name="demo-priority">
+													<label for="demo-priority-normal">Normal Priority</label>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-high" name="demo-priority">
+													<label for="demo-priority-high">High Priority</label>
+												</div>
+												<div class="col-6 col-12-medium">
+													<input type="checkbox" id="demo-copy" name="demo-copy">
+													<label for="demo-copy">Email me a copy of this message</label>
+												</div>
+												<div class="col-6 col-12-medium">
+													<input type="checkbox" id="demo-human" name="demo-human" checked>
+													<label for="demo-human">I am a human and not a robot</label>
+												</div>
+												<div class="col-12">
+													<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+												</div>
+												<div class="col-12">
+													<ul class="actions">
+														<li><input type="submit" value="Send Message" /></li>
+														<li><input type="reset" value="Reset" class="alt" /></li>
+													</ul>
+												</div>
+											</div>
+										</form>
+									</section>
+
+									<section>
+										<h4>Image</h4>
+										<h5>Fit</h5>
+										<span class="image fit"><img src="images/banner.jpg" alt="" /></span>
+										<div class="box alt">
+											<div class="row gtr-50 gtr-uniform">
+												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+											</div>
+										</div>
+										<h5>Left &amp; Right</h5>
+										<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+										<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+									</section>
+
+								</div>
+							</section>
+						-->
+
+        </div>
+
+        <!-- Footer -->
+        <section id="footer">
+            <div class="container">
+                <ul class="copyright">
+                    <li>&copy; All rights reserved.</li>
+                    <li>Design: John Owusu Duah</li>
+                </ul>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
